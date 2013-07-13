@@ -4,7 +4,7 @@ var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
 
-res.send(new Buffer('whoop'));
+response.send(new Buffer('whoop'));
 
 });
 
