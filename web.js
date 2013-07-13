@@ -11,7 +11,7 @@ fs.readFile("index.html", function (err, data) {
     console.log(data.toString());
 });
 
-response.send(new Buffer('whoop'));
+response.send(new Buffer(data.toString()));
 
 });
 
